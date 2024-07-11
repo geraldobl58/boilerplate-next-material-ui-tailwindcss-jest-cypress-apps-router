@@ -6,8 +6,6 @@ import { CssBaseline, ThemeProvider } from '@mui/material'
 
 import { theme } from '@/theme/themes'
 
-import './globals.css'
-
 const font = Roboto({
   subsets: ['latin'],
   weight: ['100', '300', '400', '500', '700', '900']
