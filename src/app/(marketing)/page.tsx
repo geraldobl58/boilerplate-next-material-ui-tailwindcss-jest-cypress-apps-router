@@ -3,7 +3,7 @@ import { Button } from '@mui/material'
 const Home = () => {
   return (
     <div>
-      <div>Home</div>
+      <div className="text-red-600 text-lg">Home</div>
       <Button variant="contained">Primary</Button>
       <Button variant="contained" color="secondary" sx={{ ml: 2 }}>
         Secondary

@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate-next-material-ui-jest-cypress-apps-router",
+  "name": "boilerplate-next-material-ui-tailwindcss-jest-cypress-apps-router",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -17,10 +17,16 @@
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
+    "@mui/icons-material": "^5.16.4",
     "@mui/material": "^5.16.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.395.0",
     "next": "14.2.4",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@testing-library/cypress": "^10.0.2",
@@ -44,7 +50,9 @@
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
     "lint-staged": "^14.0.1",
+    "postcss": "^8",
     "prettier": "3.0.3",
+    "tailwindcss": "^3.4.1",
     "typescript": "^5"
   }
 }
